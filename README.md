@@ -22,6 +22,7 @@ Users should be able to:
 
 - CSS custom properties
 - Flexbox
+- Grid
 
 ## Author
 
