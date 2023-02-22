@@ -9,16 +9,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshots
+### Screenshot
 
 ![alt text](screenshots/desktop.png "3-column preview card challenge screenshot for desktop")
-![alt text](screenshots/mobile1.png "3-column preview card challenge screenshot for mobile")
-![alt text](screenshots/mobile2.png "3-column preview card challenge screenshot for mobile")
 
 ### Links
 
-- [Solution]()
-- [Live]()
+- [Solution](https://github.com/MooseCowBear/frontend-mentor-3-column-preview-card)
+- [Live](https://moosecowbear.github.io/frontend-mentor-3-column-preview-card/)
 
 ### Built with
 
