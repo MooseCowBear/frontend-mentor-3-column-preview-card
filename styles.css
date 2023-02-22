@@ -62,7 +62,7 @@ body {
     font-size: 15px;
 }
 
-.flex-container {
+.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 8px;
@@ -149,7 +149,7 @@ button {
   }
 
   @media only screen and (max-width: 750px){
-    .flex-container {
+    .container {
       grid-template-columns: 1fr;
     }
     p {
