@@ -30,6 +30,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 section {
@@ -44,7 +46,6 @@ section {
 
 #sedan {
     background-color: var(--background-color-one);
-    border-radius: 8px 0 0 8px;
 }
 
 #suv {
@@ -53,7 +54,6 @@ section {
 
 #luxury {
     background-color: var(--background-color-three);
-    border-radius: 0 8px 8px 0;
 }
 
 h2 {
@@ -70,7 +70,6 @@ p {
     line-height: 1.6;
     letter-spacing: 0 1px;
     font-size: 0.9em;
-    flex-grow: 1;
     max-width: 14em;
 }  
 
@@ -120,13 +119,6 @@ button {
       flex-direction: column;
       height: 100%;
       margin: 1em 0;
-    }
-
-    #sedan {
-      border-radius: 8px 8px 0 0;
-    }
-    #luxury {
-      border-radius: 0 0 8px 8px;
     }
   }
   
