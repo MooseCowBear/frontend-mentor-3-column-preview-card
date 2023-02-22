@@ -29,6 +29,7 @@ Users should be able to:
 ### Useful resources
 
 [A Modern CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/) - Trying to do resets better. As suggested by @KeganF on Frontend Mentor
+
 [This Stack Overflow](https://stackoverflow.com/questions/36004926/equal-height-rows-in-a-flex-container) - For showing me my first instincts were bad.
 
 ### Author
