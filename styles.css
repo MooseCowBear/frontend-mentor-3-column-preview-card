@@ -99,10 +99,10 @@ h2 {
 
 p {
     color: var(--text-secondary);
+    opacity: 0.9;
     font-weight: 300;
     line-height: 1.6;
     letter-spacing: 0 1px;
-    font-size: 0.9em;
     max-width: 14em;
 }  
 
