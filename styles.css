@@ -24,19 +24,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
 }
 
 .flex-container {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-auto-rows: 1fr;*/
+  
     border-radius: 8px;
     overflow: hidden;
 }
 
 section {
-    min-width: 16em;
-    min-height: 30em;
+    /*min-width: 16em;
+    min-height: 30em;*/
     padding: 2.5em;
     display: flex;
     flex-direction: column;
@@ -114,11 +120,9 @@ button {
     border: 2px solid var(--text-main);
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 750px){
     .flex-container {
-      flex-direction: column;
-      height: 100%;
-      margin: 1em 0;
+      grid-template-columns: 1fr;
     }
   }
   
