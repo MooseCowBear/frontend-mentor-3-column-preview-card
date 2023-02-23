@@ -75,6 +75,7 @@ section {
     flex-direction: column;
     align-items: flex-start;
     gap: 2em;
+    position: relative;
 }
 
 #sedan {
@@ -104,6 +105,7 @@ p {
     line-height: 1.6;
     letter-spacing: 0 1px;
     max-width: 14em;
+    margin-bottom: 7em;
 }  
 
 button {
@@ -113,7 +115,8 @@ button {
     border-radius: 30px;
     font-size: 0.85em;
     font-weight: 700;
-    margin-top: 3em;
+    position: absolute;
+    bottom: 2.5em;
   }
   
   #sedan button{
@@ -148,7 +151,7 @@ button {
     border: 2px solid var(--text-main);
   }
 
-  @media only screen and (max-width: 720px){
+  @media only screen and (max-width: 700px){
     .container {
       grid-template-columns: 1fr;
       margin: 1em; 
